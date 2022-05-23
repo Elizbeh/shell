@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo chmod  u+X hello
+-rwxr--r--
+
 
 
 
