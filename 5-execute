@@ -1,5 +1,5 @@
 #!/bin/bash
-chmod +X hello
+sudo chmod  u+X hello
 
 
 
