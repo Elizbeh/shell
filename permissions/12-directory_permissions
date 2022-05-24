@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type -exec chmod 751
+chmod 751 my-dir
