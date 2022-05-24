@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir -m751 my-dir
+mkdir -v751 my-dir
