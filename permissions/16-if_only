@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R --guillaume=vicent /
+chown guillaume vicent hello
