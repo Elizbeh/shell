@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 3 iacta | -n 3
+tail -$Lines1 f iacta
