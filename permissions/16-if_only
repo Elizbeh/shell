@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent hello chown staff hello
+adduser vincent:staff hello
