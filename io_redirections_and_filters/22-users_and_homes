@@ -1,2 +1,2 @@
 #!/bin/bash
-cut _f* /etc/passwd
+cut _f * /etc/passwd
