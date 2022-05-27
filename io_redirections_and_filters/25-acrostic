@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c 1 | cut -f |sort -k 1 |UNIQ -c | sor -rnk 1 | -n 11 | rev | cut -d '' -f -1 |rev
+cut -c 1 | paste -s -d "
