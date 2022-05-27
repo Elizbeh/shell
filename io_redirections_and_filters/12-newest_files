@@ -1,2 +1,2 @@
 #!/bin/bash
-find /root -atime -10
+ls -al --time-stle=+%D | grep 'date +%D'
