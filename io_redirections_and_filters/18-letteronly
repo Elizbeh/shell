@@ -1,2 +1,2 @@
 #!/bin/bash
-gref ^b /etc/ssh/sshd_config
+gref ^F /etc/ssh/sshd_config
