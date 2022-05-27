@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name main.js -exec rm {} +
+rm -f */*/*myfile.jc
