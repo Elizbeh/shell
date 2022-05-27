@@ -1,2 +1,2 @@
 #!/bin/bash
-ls _l .io_redirections_and_filters | grep -c d^
+ls .Count
