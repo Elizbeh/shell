@@ -1,2 +1,2 @@
 #!/bin/bash
-find . io_redirection_and-filters/* -minddept 0 -type d | wc -l
+find . io_redirection_and-filters/* -maxdept 0 -type d | wc -l
