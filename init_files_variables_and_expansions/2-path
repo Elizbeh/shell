@@ -1,3 +1,2 @@
 #!/bin/bash
-echo /action/user
 export PATH="$home/action:$PATH"
