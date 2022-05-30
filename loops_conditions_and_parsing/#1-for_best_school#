@@ -1,0 +1,2 @@
+#!/user/bin/env bash
+for i in Best School; do cp "$i" "$i".bak ; done
