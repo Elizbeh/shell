@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# a Bash script that loops from 1 to 10 using while,if,elif and else
-name=snoopy
-
+# ABash script that loops from 1 to 10
 if [ "$name" = "snoopy" ] then
    echo "It was a dark and stormy night."
    elif [ "$name" == "charlie" ]
