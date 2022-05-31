@@ -3,7 +3,7 @@
 z=1
 while [ $z -le 10]
       do
-	  if [$z -eq 4 ]
+	  if [ $z -eq 4 ]
 	  then
 	      echo 'bad luck'
 	  elif [ $z -eq 8 ]
