@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
 # This script let you display Best School 10 times using the while loop
-if [ $# -gt 0 ]; then
-
-    filename=$1
-
-    while read line; do
-      
-	echo "Best School"
-    done < $filename
-else
-        echo "Best School"
+x=1
+while [ $x -le 10 ]
+do
+    echo "Best School"
+    x=$(( $x + 1 ))
+    done
