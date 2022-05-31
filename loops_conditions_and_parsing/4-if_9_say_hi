@@ -1,2 +1,12 @@
 #!/usr/bin/env bash
-# A script tha loops 
+#  A Bash script that displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
+p=1
+while [ $p -le 10 ]
+do
+    echo 'Best School'
+    p=$(( p + 1))
+    if [ $p -eq 10 ]
+    then
+	echo 'Hi'
+    fi
+done
