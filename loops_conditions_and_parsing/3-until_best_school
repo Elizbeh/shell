@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
-# this script displays Best School 10 times
-valid=true
-count=1
-while [ $valid ]
+# this script uses until loop to display Best School 10times
+counter=0
+
+until [ $counter -gt 5 ]
 do
-    echo $count
-    if [ $count -eq 5 ];
-    then
-	break
-    fi
-    ((count++))
+  echo Counter: $counter
+    ((counter++))
     done
