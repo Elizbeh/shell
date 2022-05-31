@@ -2,9 +2,9 @@
 # This script let you display Best School 10 times using the while loop
 valid=true
 count=1
-while [" $Best School" ]
+while [ $n -le 10 ]
 do
-echo $count
+echo "Best Shool"
 if [ $count -eq 10 ];
 then
 break
