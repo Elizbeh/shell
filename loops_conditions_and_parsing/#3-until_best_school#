@@ -1,0 +1,12 @@
+valid=true
+count=1
+while [ $valid ]
+do
+    echo $count
+    if [ $count -eq 5 ];
+    then
+	break
+    fi
+    ((count++))
+    done#!/usr/bin/env bash
+# this script displays Best School 10 times
