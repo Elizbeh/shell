@@ -1,0 +1,15 @@
+counter=0
+
+until [ $counter -gt 5 ]
+do
+    echo Counter: $counter
+    ((counter++))
+    done#!/usr/bin/env bash
+# this script uses until loop to display Best School 10times
+counter=Best School
+
+until [ $counter -gt 5 ]
+do
+  echo Counter: $counter
+    ((counter++))
+    done
