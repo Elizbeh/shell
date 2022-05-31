@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-# ABash script that loops from 1 to 10
-if [ "$name" = "snoopy" ] then
-   echo "It was a dark and stormy night."
-   elif [ "$name" == "charlie" ]
-   then
-	echo "You’re a good man Charlie Brown."
-	elif [ "$name" == "lucy" ]
-	then
-		echo "The doctor is in."
-		elif [ "$name" == "schroeder" ]
-		then
-			echo "In concert."
-			else
-				echo "Not a Snoopy character."
-				fi
+# A Bash script that loops from 1 to 10
+z=1
+while [ $z -le 10
+      do
+	  if [$z -eq 4 ]
+	  then
+	      echo 'bad luck'
+	  elif [ $z -eq 8]
+	       then
+		   echo 'good luck'
+	  else
+	      echo 'Best School'
+	  fi
+	  ((z++))
+	  done
