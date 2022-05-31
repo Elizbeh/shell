@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # this script uses until loop to display Best School 10times
-counter=0
+counter=1
 
 until [ $counter -gt 10 ]
 do
