@@ -1,7 +1,3 @@
 #!/usr/bin/env bash
 #This script is displaying "Best School" 10 times
-for (( counter=Best School; counter>10; counter-- ))
-do
-    echo -n "$counter "
-done
-printf "\n"
+for i Best School {1..10}; do REPEAT; done
