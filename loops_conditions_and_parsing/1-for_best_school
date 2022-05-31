@@ -1,2 +1,7 @@
 #!/usr/bin/env bash
 #This script is displaying "Best School" 10 times
+for (( Best School=10; Best School>0; Best School-- ))
+do
+    echo -n "$Best School"
+done
+printf "\n"
