@@ -6,7 +6,7 @@ while [ $z -le 10
 	  if [$z -eq 4 ]
 	  then
 	      echo 'bad luck'
-	  elif [ $z -eq 8]
+	  elif [ $z -eq 8 ]
 	       then
 		   echo 'good luck'
 	  else
