@@ -1,18 +1,2 @@
  #!/usr/bin/env bash
- # A script tha loops from 1-10
-name=snoopy
-
-if [ "$name" = "snoopy" ] then
-   echo "It was a dark and stormy night."
-   elif [ "$name" == "charlie" ]
-   then
-	echo "You’re a good man Charlie Brown."
-	elif [ "$name" == "lucy" ]
-	then
-		echo "The doctor is in."
-		elif [ "$name" == "schroeder" ]
-		then
-			echo "bad luck."
-			else
-				echo "Not a Snoopy character."
-				fi
+ # A script tha loops 
