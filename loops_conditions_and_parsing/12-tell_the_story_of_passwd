@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
 #Tell the story of passwd
+while read VARIABLE
+do
+    code
+    done
