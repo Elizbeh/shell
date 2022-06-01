@@ -3,9 +3,21 @@
 z=1
 while [ z -le 20 ]
 do
-case $z in
-  5) echo "bad luck from china";;
-    10) echo "bad luck from Japan";;
-      18) echo "bad luch from Italy";;
-        	    esac
-		    done
+    case $z in
+
+	if [$z -eq 4 ])
+		       then
+	    echo -n "bad luck from china"
+	    ;;
+
+		       elif [$z -eq 9 ])
+then
+	    echo -n "bad luck from Japan"
+	    ;;
+
+       else  [ $z -eq 17 ])
+	    echo -n "bad luck from Italy"
+	    ;;
+
+	  esac
+   
