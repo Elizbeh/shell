@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#A Bash script that displays the time for 12 hours and 59 minutes
+z=0
+while [ $z -le 12 ]
