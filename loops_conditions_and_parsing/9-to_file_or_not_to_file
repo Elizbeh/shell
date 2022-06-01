@@ -1,2 +1,13 @@
 #!/usr/bin/env bash o
-#  a Bash script that gives you information about the school file.
+# a Bash script that gives you information about the school file.
+if [ "$(find . type f -name 'school' | wc)" -gt 0 ]
+then echo "school file exist"
+fi
+if [$(find . -type f -empty"
+then echo "school file is empty"
+*fi
+if [ "$(find . -type d | wc -l" = 0 ]
+then echo "school is a regular file"
+elif [ "$(find . -tpde f | wc -l)" = 0 ]
+then echo "school find exist"
+fi
