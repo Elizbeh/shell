@@ -1,8 +1,18 @@
 #!/usr/bin/env bash
 # a Bash script that displays numbers from 1 to 20
 z=1
-while [ $ -le 10 ]
+while [ $z != 21 ]
 do
-if [ $z -eq 4 ]
-then
-echo '4'
+echo $z
+    case $z in
+	4)
+	    echo $z "bad luck from china"
+	    ;;
+	9)
+	    echo $z "bad luck from Japan"
+	    ;;
+	17)
+	    echo $z "bad luck from Italy"
+    esac
+    ((z++))
+done
