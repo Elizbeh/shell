@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-#  a Bash script that displays numbers from 1 to 20 
+# A Bash script that displays numbers from 1 to 20 
 z=1
 while [ z -le 20 ]
 do
-case $color in
+case $z in
   5) echo "bad luck from china";;
     10) echo "bad luck from Japan";;
       18) echo "bad luch from Italy";;
