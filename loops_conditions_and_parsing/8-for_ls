@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # a Bash
 
-cd "search_dir"
-for [ z in `echo *` ]; do
-    echo "$z"
+
+for z in *
+do
+    echo "$z" | cut -f 2- -d '-'
     done
