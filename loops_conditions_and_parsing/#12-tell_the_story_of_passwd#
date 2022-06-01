@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Tell the story of passwd
+while read VARIABLE
+do
+    code
+    done
+The user USERNAME is part of the GROUP_ID gang, lives in HOME_DIRECTORY and rides COMMAND/SHELL. USER ID's place is protected by the passcode PASSWORD, more info about the user

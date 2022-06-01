@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
 #sing what did in the previous exercise, write a Bash script that groups visitors by IP and HTTP status code, and displays this data.
+while read LINE; do
+    curl -o /dev/null --silent --head --write-out "%{http_code} $LINE\n" "$LINE"
+    done < url-list.txt
