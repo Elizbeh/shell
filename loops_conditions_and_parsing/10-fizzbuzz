@@ -1,2 +1,6 @@
 #!/usr/bin/env bash
 #a Bash script that displays numbers from 1 to 100.
+for num in range(1, 100):
+	   if num % 3 is 0:
+	      print("Fizz")
+	          
