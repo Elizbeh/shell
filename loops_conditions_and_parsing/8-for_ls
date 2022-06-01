@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# a Bash script that displays:
-for entry in "$search_dir"/* "$work_dir"/*
-do
-    if [ -f "$entry" ];then
-        echo "$entry"
-    fi
-    done|
+# a Bash
+
+cd "search_dir"
+for [ z in `echo *` ]; do
+    echo "$z"
+    done
