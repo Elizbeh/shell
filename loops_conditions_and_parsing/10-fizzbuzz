@@ -1,18 +1,4 @@
 #!/usr/bin/env bash
 #a Bash script that displays numbers from 1 to 100.
-numb=1
-while ((num ! = 100))
-do
-    echo "$num"
-    if [ $((num%3)) = 0 ]
-    then echo "Fizz"
-    fi
-    if [ $((%5)) = 0 ]
-    then echo "Buzz"
-    fi
-    if [ $((num%5)) = 0 ] && [$((num%3)) =0 ]
-       then echo "FizzBuzz"
-    fi
-fi
-    ((num++))
-    echo "$num"
+awk -F ' ' ' { print $1 3 ""$9 }'
+apache-access.log | sort |uniq -c | sort -nr
