@@ -1,4 +1,15 @@
 #!/usr/bin/env bash
 #a Bash script that displays numbers from 1 to 100.
-awk -F ' ' ' { print $1 3 ""$9 }'
-apache-access.log | sort |uniq -c | sort -nr
+for z in {1..100}
+do
+    if [$((z % 5)) -eq 0 ]
+    then
+	echo "FizzBuzz"
+then echo "Buzz"
+    elif [ $((z % 3)) -eq 0 ]
+then
+    echo "Fizz"
+    else
+	echo "$z"
+fi
+done
