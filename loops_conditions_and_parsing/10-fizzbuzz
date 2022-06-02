@@ -6,9 +6,10 @@ do
     if [ $((z % 5)) -eq 0 ] && [ $((z % 3)) -eq 0 ]
     then
 	echo "FizzBuzz"
-then echo "Buzz"
+    elif [ $((z % 5)) -eq 0 ]
+	 then echo "Buzz"
     elif [ $((z % 3)) -eq 0 ]
-then
+	 then
     echo "Fizz"
     else
 	echo "$z"
