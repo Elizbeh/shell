@@ -3,7 +3,7 @@
 
 for z in {1..100}
 do
-    if [ $((z % 5)) -eq 0 ]
+    if [ $((z % 5)) -eq 0 ] && [ $((z % 3)) -eq 0 ]
     then
 	echo "FizzBuzz"
 then echo "Buzz"
