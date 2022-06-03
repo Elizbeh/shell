@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
 #Write Bash (init) script 11-manage_my_process that manages manage_my_process. (both files need to be pushed to git
 
-echo $$ > /var/run/myscript.pid
-trap "echo 'I hate the kill command'; rm /var/run/myscript.pid; exit" SIGTERM
-trap "echo 'Y U no love me?!'" SIGINT
-trap "rm /var/run/myscript.pid; exit" SIGQUIT
+manage_my_process
 
 while :
 do
-echo "To infinity and beyond"
-sleep 2
+    echo 'I am alive!' > /tmp/my_process
+    sleep 2
 done
