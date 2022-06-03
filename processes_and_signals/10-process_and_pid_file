@@ -1,5 +1,5 @@
- #!/usr/bin/env bash
- #Write Bash (init) script 11-manage_my_process that manages manage_my_process. (both files need to be pushed to git
+#!/usr/bin/env bash
+#Write Bash (init) script 11-manage_my_process that manages manage_my_process. (both files need to be pushed to git
 
 echo $$ > /var/run/myscript.pid
 trap "echo 'I hate the kill command'; rm /var/run/myscript.pid; exit" SIGTERM
