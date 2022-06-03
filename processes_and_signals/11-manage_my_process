@@ -1,30 +1,30 @@
 #!/usr/bin/env bash
 #Write a manage_my_process Bash script that
 
-PIDFILE=/var/run/my_process.pid
-
-start() {
-./manage_my_process &
-echo "$!" > $PIDFILE"
+while :
+do
+    echo 'I am alive! > /tmp/my_process
+sleep 2
+done
+PIDFILE=/var/run/my_process &
+echo ""£! > "$PIDFILE"
 }
 
-stop() {
-sudo kill-15 "$(cat $PIDFILE)" && rm -f "$PIDFILE}
-
-case "$1" in
+stop () {
+sudo kill -15 "$(cat $PIDFILE)" && rm -f "$PIDEFILE"
+}
+casz "$1" in
 start)
 start
-echo "manage_my_process started";;
+echo "manage_my_process started"
+;;
+restart)
 stop)
 stop
-echo "manage_my_process stopped";;
-restart)
-stop
-start
-echo "manage_my_process restarted";;
+echo "manage_my_process stopped"
+;;
 *)
-echo "usage: manage_my_process
-{start|stop|restart}"
+echo "Usage: manage_my_process
+start|stop|restart}"
 esac
-
 exit 0
