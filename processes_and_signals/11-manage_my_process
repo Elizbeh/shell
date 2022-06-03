@@ -6,26 +6,30 @@ do
     echo 'I am alive!' > /tmp/my_process
 sleep 2
 done
-PIDFILE=/var/run/my_process &
-echo ""£! > "$PIDFILE"
+
+PIDFILE=/var/run/my_process.pid
+start() {
+    ./manage_my_process &
+    echo "$"! > "$PIDFILE"
 }
 
 stop () {
-sudo kill -15 "$(cat $PIDFILE)" && rm -f "$PIDEFILE"
+    sudo kill -15 "$(cat $PIDFILE)" && rm -f "$PIDEFILE"
 }
-casz "$1" in
-start)
-start
-echo "manage_my_process started"
-;;
-restart)
-stop)
-stop
-echo "manage_my_process stopped"
-;;
-*)
-echo "Usage: manage_my_process
+
+case "$1" in
+    start)
+	start
+	echo "manage_my_process started"
+	;;
+    restart)
+	stop
+	start
+	echo "manage_my_process stopped"
+	;;
+    *)
+	echo "Usage: manage_my_process
 start|stop|restart}"
 esac
-     exit 0
+exit 0
      
