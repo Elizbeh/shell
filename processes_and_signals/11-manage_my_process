@@ -8,9 +8,6 @@ start() {
 echo "$!" > $PIDFILE"
 }
 
-" && rm -f "$PIDFILE
-}
- 
 stop() {
 sudo kill-15 "$(cat $PIDFILE)" && rm -f "$PIDFILE}
 
@@ -21,15 +18,15 @@ echo "manage_my_process started"
 ;;
 stop)
 stop
-echo "manage_m_y process stopped"
+echo "manage_my_process stopped"
 ;;
 restart)
 stop
 start
-echo "manage_my_process"restarted"
+echo "manage_my_process restarted"
 ;;
 *)
-echo "usage/ manage_my_process
+echo "usage: manage_my_process
 {start|stop|restart}"
 esac
 
