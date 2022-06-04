@@ -2,7 +2,7 @@
 # Write a manage_my_process Bash script that
 PIDFILE=/var/run/my process.pid
 
-start () {
+start() {
     ./manage_my_process &
     echo "$!" > $PIDFILE
 }
